@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>este video esta hospetado no meu proprio servidor.</p>
+    <video src="media/meu-video1.mp4" width="560" controls></video>
+
+   <h2>Modo certo</h2>
+
+   <video width="560" poster="imagem/capa do pc.jpg" controls autoplay loop>
+    <source src="media/Meu-Video.ogv" type="video/ogg">
+    <source src="media/meu-video2.webm" type="video/webm">
+    <source src="media/meu-video.mkv" type="video/mp4">
+    <source src="media/meu-video1.mp4" type="video/mp4">
+    <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+   </video>
+
+   <h1>Inserindo vídeo do YouTube</h1>
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/ew-FEDkG0lA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+   <iframe src="https://player.vimeo.com/video/197362334?h=cb0a03263d&autoplay=1&loop=1&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+   
+   <p><a href="https://vimeo.com/197362334"></a></p>
+</body>
+</html>
