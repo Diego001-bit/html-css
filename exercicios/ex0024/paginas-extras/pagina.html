@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Teste</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table{
+            width: 800px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td ,th {
+            padding: 10px;
+            border: 1px solid black;
+        }
+        thead,tfoot{
+            background-color: gray;
+            color: white;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightcyan;
+        }
+        thead > tr > th{
+
+            position: sticky;
+            top: 0;
+            background-color: gray;
+        }
+        td.num{
+            text-align: right;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        div#container{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table>
+            <thead>
+                <caption>Tabelas Responsiva</caption>
+                <tr>
+                    <th>Produtos</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Amazon</td>
+                    <th>57</th>
+                    <th>12</th>
+                    <th>11</th>
+                    <th>15</th>
+                    <th>15</th>
+                    <th>15</th>
+                    <th>13</th>
+                    <th>19</th>
+                    <th>17</th>
+                    <th>17</th>
+                    <th>17</th>
+                    <th>11</th>
+                </tr>
+                <tr>
+                    <td>PlayStation 4</td>
+                    <th>57</th>
+                    <th>12</th>
+                    <th>11</th>
+                    <th>15</th>
+                    <th>15</th>
+                    <th>15</th>
+                    <th>13</th>
+                    <th>19</th>
+                    <th>17</th>
+                    <th>17</th>
+                    <th>17</th>
+                    <th>11</th>
+                </tr>
+                <tr>
+                    <td>Motorola</td>
+                    <th>57</th>
+                    <th>12</th>
+                    <th>11</th>
+                    <th>15</th>
+                    <th>15</th>
+                    <th>15</th>
+                    <th>13</th>
+                    <th>19</th>
+                    <th>17</th>
+                    <th>17</th>
+                    <th>17</th>
+                    <th>11</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
