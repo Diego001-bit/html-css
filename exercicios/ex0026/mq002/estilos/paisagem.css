@@ -1,1 +1,9 @@
 @charset "UTF-8";
+
+/*DEITADO*/
+@media (orientation:landscape) {
+    body{
+        background-image: url(../cev-landscape.jpg);
+        background-position: left bottom;
+    }
+}

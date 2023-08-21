@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
 /*em pé*/
+@media  (orientation:portrait) {
+    body{
+        background-image: url(../cev-portrait.jpg);
+        background-position: center bottom;
+    }
+}
