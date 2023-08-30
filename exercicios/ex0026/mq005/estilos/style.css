@@ -20,7 +20,7 @@ header h1{
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu ul{
@@ -54,4 +54,16 @@ article p{
     text-align: justify;
     padding-bottom: 10px;
     text-indent: 20px;
+}
+#burgue{
+    background-color: rgba(0, 0, 0, 0.712);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+#burgue:hover{
+    background-color: white;
+    color: black;
 }
